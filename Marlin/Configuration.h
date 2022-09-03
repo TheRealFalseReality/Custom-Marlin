@@ -57,8 +57,8 @@
 //#define MachineEnder3S1
 //#define MachineEnder3S1_F4
 //#define MachineEnder3Max
-#define MachineEnder3Pro422
-//#define MachineEnder3Pro427
+//#define MachineEnder3Pro422
+#define MachineEnder3Pro427
 
 //#define PLUS // Adds bltouch, allmetal, bilinear (standard), lerdge, 93 e steps/mm
 
@@ -104,14 +104,14 @@
 //Stepper09Deg // 0.9 degree per step motor on the extruder - doubles ESteps
 
  //#define MicroswissDirectDrive
- #define DirectDrive // Any direct drive extruder, reduces filament change lengths
+ //#define DirectDrive // Any direct drive extruder, reduces filament change lengths
 
 /*
    Choose bed type below. If you have an extenrally controlled
    ac bed, leave both disabled
 */
-#define BedAC
-//#define BedDC
+//#define BedAC
+#define BedDC
 
 //#define SolidBedMounts //Removed a few LCD options to save some memory since not needed with solid mounts
 
@@ -155,7 +155,7 @@
 //#define DualFilSensors //Using dual filament sensors on XMax and YMAX
 //#define FilamentEncoder //Using filamet jam sensor such as the Bigtreetech Encoder wheel
 
-#define PurgeBucket //Adds automatic wiping on tool change if purge bucket is installed
+//#define PurgeBucket //Adds automatic wiping on tool change if purge bucket is installed
 
 // Advanced options - Not for most users
 
@@ -193,8 +193,8 @@
 //#define MachineCR10Orig // Forces Melzi board
 //#define Melzi_To_SBoardUpgrade // Upgrade Melzi board to 10S board
 //#define CrealitySilentBoard // Creality board with TMC2208 Standalone drivers. Disables Linear Advance
-#define Creality422
-//#define Creality427
+//#define Creality422
+#define Creality427
 //define CR6_452 // Older recalled Creality 452 motherboard
 
 //#define SKR13 // 32 bit board - assumes 2208 drivers
