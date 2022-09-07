@@ -2728,8 +2728,8 @@
     #define Z_MAX_POS 405
     #define ClipClearance 5
   #elif ANY(MachineEnder3, MachineEnder3V2)
-    #define X_BED_SIZE 200
-    #define Y_BED_SIZE 200
+    #define X_BED_SIZE 230
+    #define Y_BED_SIZE 230
     #define Z_MAX_POS 250
     #define X_MAX_POS 245
     #define Y_MAX_POS 240
@@ -2885,8 +2885,8 @@
   #define X_MIN_POS 0
   #define Y_MIN_POS -5
 #else
-  #define X_MIN_POS -30
-  #define Y_MIN_POS -30
+  #define X_MIN_POS 0
+  #define Y_MIN_POS 0
 #endif
 #define Z_MIN_POS 0
 #ifndef X_MAX_POS
